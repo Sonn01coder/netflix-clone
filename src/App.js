@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route exact path='/' element={<Home/>} />
+            <Route exact path='/netflix-clone' element={<Home/>} />
             <Route path='/search' element={<Search />} />
           </Routes>
           <Footer />

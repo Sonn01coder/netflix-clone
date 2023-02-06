@@ -17,12 +17,12 @@ function Navbar(props) {
         if(keywords.length > 0) {
             navigate(`/search?keywords=${keywords.trim()}`)
         } else {
-            navigate('/')
+            navigate('/netflix-clone')
         }
     }
 
     const goHome = () => {
-        navigate('/');
+        navigate('/netflix-clone');
         setKeywords('')
     }
 
