@@ -6,8 +6,9 @@ function Footer(props) {
         <DivFooter>
             <div>
                 <h1>
-                    Github:
+                    Build by
                     <a href="https://github.com/Sonn01coder">Sonn01coder</a>
+                    base on Reactjs
                 </h1>
             </div>
         </DivFooter>
