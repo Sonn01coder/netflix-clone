@@ -1,4 +1,4 @@
-import NetflixLogo from '../../assets/images/Netflix_Logo_RGB.png';
+import NetflixLogo from '../../assets/images/logooo.png';
 import {MdSearch} from 'react-icons/md'
 import styled from 'styled-components';
 import { useScrollY } from '../hooks';
@@ -76,7 +76,8 @@ const Navigation = styled.div`
                 width: 120px;
                 cursor: pointer;
                 img {
-                    width:100%;
+                    width:50%;
+                    margin-left:20px
                 }
             }
         
