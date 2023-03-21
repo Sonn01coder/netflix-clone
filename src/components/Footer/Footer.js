@@ -30,6 +30,7 @@ const DivFooter = styled.div`
 
     a {
         padding-left: 10px;
+        padding-right: 10px;
         color: var(--color-green);
     }
 `
